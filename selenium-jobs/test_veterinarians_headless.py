@@ -32,12 +32,3 @@ print("Table loaded")
 driver.quit()
 ```
 
-* Commit the change, then push the selenium jobs to the remote repo.
-
-``` bash
-git add .
-git commit -m 'added selenium jobs written in python'
-git push --set-upstream origin feature/msp-13
-git checkout dev
-git merge feature/msp-13
-git push origin dev
